@@ -9,8 +9,8 @@ const DEC='counter/DEC'
 
 //funkcja pomocnicza ktora zwraca akcje,nawiasy klamrowe bo zwracamy obiekt,akcje
 
-const inc=()=>({type:INC})
-const dec=()=>({type:DEC})
+export const inc=()=>({type:INC})
+export const dec=()=>({type:DEC})
 
 ///////////////////////////////////////////////////
 
